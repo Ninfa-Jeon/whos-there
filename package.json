@@ -9,12 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.3",
+    "@tsparticles/all": "^3.3.0",
+    "@tsparticles/react": "^3.0.0",
+    "framer-motion": "^11.1.9",
+    "isomorphic-unfetch": "^3.1.0",
+    "next": "14.2.3",
+    "r3f-perf": "^7.2.1",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "three": "^0.164.1"
   },
   "devDependencies": {
     "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "eslint-config-next": "14.2.3",
+    "prop-types": "^15.8.1"
   }
 }

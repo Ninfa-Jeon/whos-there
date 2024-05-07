@@ -1,0 +1,58 @@
+html,
+body
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #1E2F97;
+}
+.r3f
+{
+    touch-action: none;
+}
+.card {
+    padding: 50px 80px;
+    width: fit-content;
+    border-radius: 12px;
+    background: rgba(176, 187, 194, 0.365);
+    border: 1px solid rgba(131, 134, 135, 0);
+    transition: background 200ms, border 200ms;
+  }
+  .card-Female {
+    padding: 50px 80px;
+    width: fit-content;
+    border-radius: 12px;
+    background: rgb(227, 114, 206) !important;
+    border: 1px solid rgba(131, 134, 135, 0);
+    transition: background 200ms, border 200ms;
+  }
+  .card-Male {
+    padding: 50px 80px;
+    width: fit-content;
+    border-radius: 12px;
+    background: rgb(69, 92, 220) !important;
+    border: 1px solid rgba(131, 134, 135, 0);
+    transition: background 200ms, border 200ms;
+  }
+.info {
+    font-size: 24px;
+}
+[class^="btn"] {
+  width: auto;
+  display: inline-block;
+  border: 0;
+  padding: 10px;
+  color: white;
+  font-size: 16px;
+  border-radius: 3px;
+  font-family: inherit;
+  margin-bottom: 10px;
+}
+
+.btn--basic {
+    background-color: #7db3e8;
+}
+
+  
