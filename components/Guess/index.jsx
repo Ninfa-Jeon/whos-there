@@ -27,7 +27,7 @@ function Experience({ age, gender, nationality, name }) {
       >
         <Float>
           <Suspense fallback={null}>
-            {gender == "Male" ? (
+            {gender.toLowerCase() == "male" ? (
               <Man scale={0.03} position={[-4, -5, 0]} />
             ) : (
               <Woman scale={0.03} position={[-4, -5, 0]} />
